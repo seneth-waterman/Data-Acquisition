@@ -19,3 +19,11 @@ This repository is a comprehensive showcase of my work in the "Data Acquisition"
 * `xml2csv`: Transforms XML files back into CSV format manually.
 * `json2csv`: Converts JSON files back to CSV format manually.
 * **Skills**: Manual CSV parsing, HTML, XML, and JSON data generation and processing, Python scripting for data conversion tasks.
+
+### Homework 3: TFIDF with SpaCy
+* **Objective**: Utilize TFIDF analysis with SpaCy to process Reuters articles, aiming to identify keywords that effectively summarize or distinguish documents.
+* `tfidf.py`: Contains methods for processing text and computing TFIDF scores.
+* `common.py`: Identifies and displays the ten most common words from a document along with their corresponding word counts, highlighting the most frequently occurring terms.
+* `compute_tok_corpus.py`: Tokenizes the entire corpus and stores the result in a pickle file for future use.
+* `summarize.py`: Identifies the 20 words with the highest TFIDF scores per document.
+* **Skills**: Advanced text processing with SpaCy, TFIDF computation and analysis, precision formatting in Python, and utilization of pickle files for efficient data handling.
