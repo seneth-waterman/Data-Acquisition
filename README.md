@@ -27,3 +27,13 @@ This repository is a comprehensive showcase of my work in the "Data Acquisition"
 * `compute_tok_corpus.py`: Tokenizes the entire corpus and stores the result in a pickle file for future use.
 * `summarize.py`: Identifies the 20 words with the highest TFIDF scores per document.
 * **Skills**: Advanced text processing with SpaCy, TFIDF computation and analysis, precision formatting in Python, and utilization of pickle files for efficient data handling.
+
+### Homework 4: Search Engine Implementation
+* **Objective**: Explore the efficiency gains of using hashtables over linear search through the development of a basic search engine that queries documents and displays results in a web browser.
+* **Search Engine**: This search engine accepts one or more terms, and searches a corpus for files matching *all* of those terms. 
+* `linear_search.py`: Implements basic linear search functionality for the search engine.
+* `index_search.py`: Implements a search engine using Python's built-in dict objects for indexing.
+* `htable.py`: An implementation of hashtables from scratch.
+* `myhtable_search.py`: A hashtable-based search engine developed without using dict objects, using `htable.py`.
+* `words.py`: For extracting and processing words from documents.
+* **Skills**: Mastery in implementing basic linear search algorithms, understanding and applying hashtable data structures for search efficiency, HTML generation for web display, and practical experience with Python scripting for search engine development.
